@@ -1,6 +1,7 @@
 export function SiteFooter() {
   const linkedinUrl = "https://www.linkedin.com/in/rynbhuiya/";
   const githubUrl = "https://github.com/rynbhuiya";
+  const instagramUrl = "https://www.instagram.com/rairairays/";
 
   return (
     <footer className="site-shell pb-10 pt-4">
@@ -14,8 +15,21 @@ export function SiteFooter() {
             aria-label="LinkedIn profile"
             className="rounded-full border border-slate-600 p-2 text-slate-200 transition hover:border-amber-300 hover:text-amber-200"
           >
-            <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden="true">
-              <path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.64h.05c.53-1 1.82-2.05 3.74-2.05 4 0 4.75 2.63 4.75 6.06V21h-4v-5.57c0-1.33-.03-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.95V21h-4V9Z" />
+            <svg
+              viewBox="0 0 24 24"
+              className="h-5 w-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="4" />
+              <line x1="8" y1="11" x2="8" y2="16" />
+              <circle cx="8" cy="8" r="0.8" />
+              <line x1="12" y1="11" x2="12" y2="16" />
+              <path d="M12 13c0-1.1.9-2 2-2s2 .9 2 2v3" />
             </svg>
           </a>
           <a
@@ -25,8 +39,40 @@ export function SiteFooter() {
             aria-label="GitHub profile"
             className="rounded-full border border-slate-600 p-2 text-slate-200 transition hover:border-amber-300 hover:text-amber-200"
           >
-            <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current" aria-hidden="true">
-              <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.04c-3.34.72-4.04-1.43-4.04-1.43-.55-1.38-1.34-1.75-1.34-1.75-1.1-.74.08-.73.08-.73 1.21.09 1.85 1.25 1.85 1.25 1.08 1.84 2.82 1.31 3.5 1 .11-.79.42-1.31.76-1.62-2.67-.3-5.48-1.33-5.48-5.9 0-1.3.47-2.37 1.24-3.2-.12-.3-.54-1.52.12-3.17 0 0 1.01-.33 3.3 1.22a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.22 3.29-1.22.66 1.65.24 2.87.12 3.17.77.83 1.24 1.9 1.24 3.2 0 4.58-2.81 5.6-5.49 5.9.43.38.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z" />
+            <svg
+              viewBox="0 0 24 24"
+              className="h-5 w-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M9 19c-5 1.5-5-2.5-7-3" />
+              <path d="M16 22v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+          </a>
+          <a
+            href={instagramUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram profile"
+            className="rounded-full border border-slate-600 p-2 text-slate-200 transition hover:border-amber-300 hover:text-amber-200"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              className="h-5 w-5"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="5" ry="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" />
             </svg>
           </a>
         </div>
