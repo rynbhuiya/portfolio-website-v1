@@ -5,19 +5,19 @@ export default function ContactPage() {
         <p className="text-xs font-semibold uppercase tracking-[0.24em] text-amber-300">Contact</p>
         <h1 className="font-serif text-4xl text-slate-50 sm:text-5xl">Let&apos;s build or shoot together</h1>
         <p className="max-w-xl text-slate-300">
-          Replace the details below with your real contact links. This page is ready for collaborations, freelance projects, and photography inquiries.
+          Feel free to reach out to me and we can collaborate!
         </p>
       </section>
 
       <section className="grid gap-4 lg:grid-cols-2">
         <article className="glass-panel space-y-2 p-6 text-slate-200">
           <p className="text-sm uppercase tracking-[0.16em] text-amber-300">Direct</p>
-          <a href="mailto:you@example.com" className="text-lg underline-offset-4 hover:underline">
-            you@example.com
+          <a href="mailto:rynbhuiya@gmail.com" className="text-lg underline-offset-4 hover:underline">
+            rynbhuiya@gmail.com
           </a>
-          <p>LinkedIn: linkedin.com/in/your-profile</p>
-          <p>GitHub: github.com/your-handle</p>
-          <p>Instagram: instagram.com/your-handle</p>
+          <p>LinkedIn: linkedin.com/in/rynbhuiya</p>
+          <p>GitHub: github.com/rynbhuiya</p>
+          <p>Instagram: instagram.com/rairairays</p>
         </article>
 
         <form className="glass-panel grid gap-3 p-6">
