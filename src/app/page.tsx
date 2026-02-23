@@ -27,7 +27,7 @@ export default function Home() {
         <aside className="glass-panel space-y-5 p-6">
           <p className="text-sm uppercase tracking-[0.18em] text-amber-300">Quick Snapshot</p>
           <ul className="space-y-3 text-slate-200">
-            <li>7+ years building production web products.</li>
+            <li>3+ years of building front to back products.</li>
             <li>Focused on product performance and reliability.</li>
             <li>Street, travel, and portrait photography.</li>
           </ul>

@@ -31,28 +31,28 @@ export type AlbumItem = {
 
 export const experiences: ExperienceItem[] = [
   {
-    role: "Senior Software Engineer",
-    company: "Atlas Systems",
-    period: "2023 - Present",
+    role: "Software Engineer II",
+    company: "LPL Financial",
+    period: "2025 - Present",
     summary:
       "Lead frontend architecture and observability for customer-facing analytics products used by enterprise clients.",
-    stack: ["TypeScript", "Next.js", "GraphQL", "PostgreSQL"],
+    stack: [".NET", "Angular", "Python", "PostgreSQL"],
   },
   {
     role: "Software Engineer",
-    company: "Northbound Labs",
-    period: "2020 - 2023",
+    company: "LPL Financial",
+    period: "2022 - 2025",
     summary:
       "Built internal tooling that reduced onboarding time and deployed CI/CD standards across multiple product teams.",
-    stack: ["React", "Node.js", "AWS", "Terraform"],
+    stack: [".Net", "Scala", "AWS", "Terraform", "Python"],
   },
   {
-    role: "Junior Developer",
-    company: "Creative Metrics",
-    period: "2018 - 2020",
+    role: "Undergraduate Researcher",
+    company: "Texas A&M University",
+    period: "2021 - 2022",
     summary:
-      "Delivered responsive marketing sites and improved Core Web Vitals for campaigns in media and retail.",
-    stack: ["JavaScript", "SCSS", "Express", "MongoDB"],
+      "Led a team of undergraduate researchers to develop 3D models of Santarem, Portugal along with an interactive website. Published a thesis on our findings and presented at the annual symposium.",
+    stack: ["Blender", "React", "Three.js"],
   },
 ];
 
