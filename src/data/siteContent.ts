@@ -35,7 +35,7 @@ export const experiences: ExperienceItem[] = [
     company: "LPL Financial",
     period: "2025 - Present",
     summary:
-      "Lead frontend architecture and observability for customer-facing analytics products used by enterprise clients.",
+      "Joined the rotational program to gain experience across multiple teams. Currently working on the Secured Credit Account team to build a new consumer credit product from the ground up.",
     stack: [".NET", "Angular", "Python", "PostgreSQL"],
   },
   {
@@ -43,7 +43,7 @@ export const experiences: ExperienceItem[] = [
     company: "LPL Financial",
     period: "2022 - 2025",
     summary:
-      "Built internal tooling that reduced onboarding time and deployed CI/CD standards across multiple product teams.",
+      "Deployed lambda functions to automate data pipelines, wrote BPUG documentation for new services, and worked on advisor onboarding automation.",
     stack: [".Net", "Scala", "AWS", "Terraform", "Python"],
   },
   {
