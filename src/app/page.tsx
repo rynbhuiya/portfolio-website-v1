@@ -5,7 +5,16 @@ import { albums, projects } from "@/data/siteContent";
 export default function Home() {
   return (
     <div className="space-y-14">
-      <section className="grid gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-end">
+      <section className="grid gap-8 lg:grid-cols-2 lg:items-end">
+        <div className="glass-panel overflow-hidden">
+          <img
+            src="/profile.jpg"
+            alt="Profile photo"
+            className="h-full w-full object-cover"
+            style={{ minHeight: "360px" }}
+          />
+        </div>
+
         <div className="glass-panel space-y-5 p-8">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-amber-300">Hybrid Portfolio</p>
           <h1 className="font-serif text-4xl text-slate-50 sm:text-6xl">
@@ -22,15 +31,6 @@ export default function Home() {
               Explore Photography
             </Link>
           </div>
-        </div>
-
-        <div className="glass-panel overflow-hidden">
-          <img
-            src="/profile.jpg"
-            alt="Profile photo"
-            className="h-full w-full object-cover"
-            style={{ minHeight: "360px" }}
-          />
         </div>
       </section>
 
