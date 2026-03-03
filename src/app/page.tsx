@@ -24,17 +24,14 @@ export default function Home() {
           </div>
         </div>
 
-        <aside className="glass-panel space-y-5 p-6">
-          <p className="text-sm uppercase tracking-[0.18em] text-amber-300">Quick Snapshot</p>
-          <ul className="space-y-3 text-slate-200">
-            <li>3+ years of building front to back products.</li>
-            <li>Focused on product performance and reliability.</li>
-            <li>Street, travel, and portrait photography.</li>
-          </ul>
-          <Link href="/contact" className="inline-block text-sm text-amber-200 underline-offset-4 hover:underline">
-            Open to collaborations
-          </Link>
-        </aside>
+        <div className="glass-panel overflow-hidden">
+          <img
+            src="/profile.jpg"
+            alt="Profile photo"
+            className="h-full w-full object-cover"
+            style={{ minHeight: "360px" }}
+          />
+        </div>
       </section>
 
       <section className="space-y-6">
